@@ -1,0 +1,16 @@
+/* Assigns:
+ The colors from color.scss with @import */
+@import '10-colors.scss';
+
+.red {
+    color: $red;
+}
+
+.green {
+    color: $green;
+}
+
+.blue {
+    color: $blue;
+}
+
