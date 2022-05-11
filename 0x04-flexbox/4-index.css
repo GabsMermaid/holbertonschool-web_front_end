@@ -383,9 +383,10 @@ ul.row {
     width: calc((100% / 2) - 2rem);
 }
 
-.row {
+
+/* .row 
     display: flex;
-}
+ */
 
 
 /* Navbar
