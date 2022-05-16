@@ -365,20 +365,26 @@ a:active {
 /* Grid
       ============================= */
 
-.col-1-3 {
-    width: calc((100% / 3) - 2rem);
+.row {
+    display: flex;
 }
 
-.col-1-2 {
-    width: calc((100% / 2) - 2rem);
+ul.row {
+    margin: -1rem;
+    padding: 0;
+    list-style: none;
 }
 
 [class*='col-'] {
     margin: 1rem;
 }
 
-ul.row {
-    margin: -1rem;
+.col-1-3 {
+    width: calc((100% / 3) - 2rem);
+}
+
+.col-1-2 {
+    width: calc((100% / 2) - 2rem);
 }
 
 
