@@ -4,6 +4,21 @@
 <head>
 
     <meta charset="utf-8" />
+    <!-- JQuery 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <!-- Verifying JQuery 3.6.0 -->
+    <script type="application/javascript">
+        window.onload = function() {
+            if (window.jQuery) {
+                // loaded  
+                console.log("jQuery has been loaded correctly");
+            } else {
+                // Not loaded
+                console.log("jQuery has not been loaded correctly");
+            }
+        }
+    </script>
+
     <title>Task 0</title>
 
 </head>
